@@ -1,9 +1,5 @@
 #include <stdio.h>
 
- Desafio Super Trunfo - Países
-Tema 2 - Comparação das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
-// Siga os comentários para implementar cada parte do desafio.
 
 int main() {
    // Carta 1
@@ -26,7 +22,7 @@ int main() {
     float densidade_populacional2;
     float pib_per_capta2;
 
-
+    char cidadevencedora [50];
     
     // Cadastro da carta 1
      printf("\n=== Carta 1 ===\n");
@@ -103,15 +99,16 @@ int main() {
     printf("PIB per Capita: %.2f\n", pib_per_capta2);
 
     // Comparação (Pib)
+      printf("\n Comparação de cartas (atributos: Populaçao): \n");
+
+      printf("Carta 1 - %s (%c): %.2f\n", nome1,estado1,pib_per_capta1);
+      printf("Carta 2 - %s (%c): %.2f\n", nome2,estado2,pib_per_capta2);
 
     if (pib1 > pib2) {
      printf("O Pib da cidade 1 é maior doque da cidade 2.\n");
     } else {
         printf("A cidade 2 tem o Pib maior.\n");
      }
-
-   
-     printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
     return 0;
 }
