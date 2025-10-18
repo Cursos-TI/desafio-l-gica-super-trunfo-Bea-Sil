@@ -124,7 +124,6 @@ int main() {
     scanf("%d", &opcao);
 
     printf("\nComparando %s e %s...\n", nome1, nome2);
-    printf("---------------------------------------\n");
 
     switch (opcao) {
         case 1:
@@ -203,7 +202,6 @@ int main() {
             printf("Opção inválida!\n");
     }
 
-    printf("---------------------------------------\n");
     printf("Fim da comparação.\n");
 
 
